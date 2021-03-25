@@ -13,6 +13,7 @@ class FDemo extends Frame
         //working????
         setBackground(Color.pink);
         setForeground(cs);
+        setTitle("MyFace Emoji");
         
     }
     public void paint(Graphics g) 
@@ -77,18 +78,7 @@ class FDemo extends Frame
         g.fillArc(157,152,15,15,0,360);
         try{Thread.sleep(50);}catch(Exception e){}
         g.fillArc(157,152,15,15,0,360);
-        int px1=150;int py1=535;
-        for(int i=1;i<11;i++)
-            {
-                for(int j=1;j<11;j++)
-                {
-                    try{Thread.sleep(200);}catch(Exception e){}
-                    g.drawString(""+i*j,px1,py1);
-                    px1+=60;
-                }
-                px1=150;
-                py1-=60;
-            }
+        
      }
 }
 class Demo16
