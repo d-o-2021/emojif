@@ -1,4 +1,4 @@
-import java.awt.*;
+import java.awt.*;//OR
 //import java.awt.Frame;
 //import java.awt.Graphics;
 class FDemo extends Frame
@@ -36,8 +36,6 @@ class FDemo extends Frame
         g.setColor(cw);
         
         g.fillArc(117,152,24,15,0,360);//Leye
-        //try{Thread.sleep(100);}catch(Exception e){}
-        
         g.fillArc(157,152,24,15,0,360);//Reye
         g.setColor(cb);
         g.drawArc(117,152,24,15,0,360);
@@ -49,7 +47,7 @@ class FDemo extends Frame
         g.fillArc(xa,152,15,15,0,360);
         }       
         xa=117;}
-        g.fillArc(157,152,15,15,0,360);*/
+        g.fillArc(157,152,15,15,0,360);*/                           //working on blinking or moving of eyes
         /*while(true){
         //g.fillArc(117,152,15,15,0,360);
         try{Thread.sleep(100);
@@ -86,7 +84,5 @@ class Demo16
     public static void main(String ar[])
     {
         FDemo f=new FDemo();
-        /*int x=(int)Math.round(Math.random()*5);
-        System.out.println(x);*/
     }
 }
