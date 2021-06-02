@@ -10,7 +10,6 @@ class FDemo extends Frame
         setVisible(true);
         setLocation(300,200);
         setSize(300,300);
-        //working??
         setBackground(Color.pink);
         setForeground(cs);
         setTitle("MyFace Emoji");
